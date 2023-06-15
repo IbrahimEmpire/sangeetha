@@ -1,0 +1,42 @@
+how do chage route in replace another rout?
+	ipo namba oru route la oru component vachu irupom aana athe component namaku vera route la 
+	varanum but replace  pannanumna 
+	 <Route path="/novel" element={<Navigate replace to="/book"/>}/>
+	 indha code namba /novel puthusa use panra route so atha navigate panni /book ku change
+	 panrom ipo namba novel nu namba type pannalum athu load aagum bothu /book ah change aagum
+	 
+
+ipo namba itha vachu namba munnadi yethachum maathi type panni irundha url nera 404 error page kaatum but url la athu apdiye irukum 
+so atha namba 404 nu mathanum
+<
+    <Route path='/404' element={<Page/>}/>
+      <Route path='*' element={<Navigate to={'/404'}/>}/>
+      >
+
+
+How to convert normal index to json?
+        install vscode in "priettier-code formatter"
+        data ellatahium thaniya data.json file ah podanum
+        right click panni formate document -> prettier-code format
+
+
+How post method in fetch common words
+        fetch(`${api}`,{method: "post",
+        body: JSON.stringify(newposted componed),
+        headers: {"Content-Type": "application/json"},
+        })
+        .then((data)=> data.json())
+
+
+
+/////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+  

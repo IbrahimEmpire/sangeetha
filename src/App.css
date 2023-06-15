@@ -1,0 +1,110 @@
+.App {
+  /* text-align: center; */
+  margin-top: 100px;
+}
+img{
+  height: 200px;
+
+}
+.adclr{
+  display: flex;
+}
+.clr{
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.movie-detail{
+  display: flex;
+  justify-content: space-between;
+}
+.movie-container{
+  width: 300px;
+  margin: 20px;
+  border-radius: 20px;
+
+}
+.movie-poster{
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.movie-name{
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.movie-summary{
+  font-size: 15px;
+}
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.btn{
+  font-size: 25px;
+  margin-right: 20px;
+  border: none;
+  background-color: inherit;
+}
+.btn:hover{
+  font-size: 30px;
+}
+.like{
+  margin-top: 15px;
+}
+.add-movie{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  }
+  input{
+    font-size: 20px;
+  }
+  .add-btn{
+    font-size: 20px;
+  }
+  .com{
+    margin: 10px auto ;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  button{
+    font-size: 20px;
+    border: none;
+  }
+  button:hover{
+   border-radius: 10px;
+   /* rotate: 120deg; */
+  }
+  .h{
+    margin-left: 150px;
+  }
+  .movie-detail-container{
+    width: 100%;
+  }
+  .movie-detail-summary{
+    font-size: 25px;
+    width: 80%;
+  }
+  .movie-detail-name{
+    font-size: 30px;
+  }
+  .movie-detail-rating{
+    font-size: 30px;
+  }
+.form{
+  margin-left: 200px auto;
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+}
+.inner-form{
+  padding: 20px;
+  margin: 0 auto;
+}
+.form-input{
+  font-size: 30px;
+  border-radius: 10px;
+}
